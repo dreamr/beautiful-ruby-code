@@ -1,4 +1,4 @@
-# Dreamr's The Ruby Style Guide
+# Dreamr's Ruby Style Guide
 
 ## Table of Contents
 
