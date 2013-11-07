@@ -800,7 +800,7 @@ constructor and comparison operators for you.
     end
 
     # better
-    class Person < Struct.new (:first_name, :last_name)
+    class Person < Struct.new(:first_name, :last_name)
     end
     ````
 
