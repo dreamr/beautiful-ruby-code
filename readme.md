@@ -1102,7 +1102,7 @@ block.
     end
     ```
 
-* Favor the use of exceptions for the standard library over
+* Favor the use of exceptions from the standard library over
 introducing new exception classes.
 
 ## Collections
@@ -1152,7 +1152,7 @@ strings.
     hash = { one: 1, two: 2, three: 3 }
     ```
 
-* Avoid the use of mutable object as hash keys.
+* Avoid the use of mutable objects as hash keys.
 * Use the new 1.9 literal hash syntax in preference to the hashrocket
 syntax.
 
@@ -1269,7 +1269,7 @@ syntax.
     process meaningful_var
     ```
 
-* Character classes have only few special characters you should care about:
+* Character classes have only a few special characters you should care about:
   `^`, `-`, `\`, `]`, so don't escape `.` or brackets in `[]`.
 
 * Be careful with `^` and `$` as they match start/end of line, not string endings.
