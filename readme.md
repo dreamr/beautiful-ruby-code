@@ -44,7 +44,9 @@
     configuration setting to protect your project from Windows line
     endings creeping in:
 
-        ```$ git config --global core.autocrlf true```
+        ``` Bash
+        $ git config --global core.autocrlf true
+        ```
 
 * Use spaces around operators, after commas, colons and semicolons, around `{`
   and before `}`. Whitespace might be (mostly) irrelevant to the Ruby
@@ -894,7 +896,8 @@ in *Ruby* now, not in *Python*.
         # ...
       end
     end
-
+    ```
+    
 * Use `def self.method` to define singleton methods. This makes the methods
   more resistant to refactoring changes.
 
