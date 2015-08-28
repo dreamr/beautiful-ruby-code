@@ -1074,18 +1074,18 @@ in *Ruby* now, not in *Python*.
     # bad
     begin
       # some code
-    rescue Exception => e
-      # some handling
     rescue StandardError => e
+      # some handling
+    rescue ArgumentError => e
       # some handling
     end
 
     # good
     begin
       # some code
-    rescue StandardError => e
+    rescue ArgumentError => e
       # some handling
-    rescue Exception => e
+    rescue StandardError => e
       # some handling
     end
     ```
